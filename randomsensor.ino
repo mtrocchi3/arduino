@@ -37,6 +37,8 @@ void loop() {
    if (peakToPeak > 500) {
       setColor(0, 255, 0);
    }
+
+  // code from Chase
    unsigned int sampleWindow = 50; // sample window in milliseconds
    unsigned int signalMax = 0;
    unsigned int signalMin = 1023;
